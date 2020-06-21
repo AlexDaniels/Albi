@@ -1,0 +1,94 @@
+html {
+	height:100%;
+}
+
+body {
+	height:100%;
+}
+
+img {
+	height:auto;
+	width:auto;
+}
+
+#button {
+  	background-color:black;
+  	border: 0px;
+  	color:white;
+  	text-align: center;
+  	text-anchor: center;
+}
+
+.form-control:focus {
+    outline: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.btn:focus {
+    outline: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+#email {
+  background-color:white;
+    border: solid black 2px;
+    color:black;
+    text-align: center;
+    text-anchor: center;
+}
+#name {
+  background-color:white;
+    border: solid black 2px;
+    color:black;
+    text-align: center;
+    text-anchor: center;
+}
+
+#thanks {
+	text-align: center
+}	
+
+#email::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+#contact {
+	padding-left:30px;
+	padding-right: 30px;
+	padding-bottom: 5px
+}
+
+body {
+	display:flex;
+ 	justify-content:center;
+ 	align-items:top;
+}
+
+#emailshell > * {
+  margin-bottom:5px;
+  justify-content: center;
+  align-items: center;
+}
+
+#paid {
+  text-align: center;
+}
+
+#write {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+#textarea {
+  border: solid 2px black;
+}
+
+#pitchtitle {
+  text-align: center;
+}
+
