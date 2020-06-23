@@ -62,7 +62,8 @@ class Signup extends React.Component {
 		}
 		//else 
 		if (!isNameEmpty && isEmailValid && !isPitchEmpty) {
-			this.setState({mode:'done'})
+			gtag_report_conversion();
+			this.setState({mode:'done'});
 			let newPerson = {name:name,email:email,pitch:pitch}
 			let URL = '/users'
 			let data = newPerson;

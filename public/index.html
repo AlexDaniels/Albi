@@ -2,6 +2,34 @@
 <html>
 	<head>
 		<title>Albi Media</title>
+		<!-- Global site tag (gtag.js) - Google Ads: 620851788 -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-620851788"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'AW-620851788');
+		</script>
+
+		<!-- Event snippet for Submit lead form conversion page
+		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+		<script>
+		function gtag_report_conversion(url) {
+		  var callback = function () {
+		    if (typeof(url) != 'undefined') {
+		      window.location = url;
+		    }
+		  };
+		  gtag('event', 'conversion', {
+		      'send_to': 'AW-620851788/J5JbCInc1NQBEMzkhagC',
+		      'event_callback': callback
+		  });
+		  return false;
+		}
+		</script>
+
+
 		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js'></script>
 		<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
