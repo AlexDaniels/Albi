@@ -54,12 +54,6 @@ img {
   opacity: 1; /* Firefox */
 }
 
-#contact {
-	padding-left:30px;
-	padding-right: 30px;
-	padding-bottom: 5px
-}
-
 body {
 	display:flex;
  	justify-content:center;
@@ -92,3 +86,8 @@ h4 {
   text-align: center;
 }
 
+@media (max-height: 645px) {
+  #contact {
+    visibility: hidden;
+  }
+}
